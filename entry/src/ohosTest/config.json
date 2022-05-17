@@ -1,0 +1,45 @@
+{
+  "app": {
+    "bundleName": "com.github.clans.fab.sample",
+    "vendor": "github",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 4,
+      "releaseType": "Beta2"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.github.clans.fab.sample",
+    "name": "testModule",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "test",
+      "moduleType": "feature"
+    },
+    "abilities": [
+      {
+        "name": "decc.testkit.runner.EntryAbility",
+        "description": "Test Entry Ability",
+        "icon": "$media:icon",
+        "label": "TestAbility",
+        "launchType": "standard",
+        "orientation": "landscape",
+        "visible": true,
+        "formEnabled": false,
+        "type": "page"
+      }
+    ]
+  }
+}

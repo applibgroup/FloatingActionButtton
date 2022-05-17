@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:parent"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:header"
+        ohos:height="102vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:menu_bg"
+        ohos:left_padding="60vp"
+        ohos:max_text_lines="3"
+        ohos:multiple_lines="true"
+        ohos:right_padding="8vp"
+        ohos:text="$string:lorem_ipsum"
+        ohos:text_color="$color:white"
+        ohos:text_font="sans-serif-light"
+        ohos:text_size="22fp"
+        ohos:top_padding="8vp"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$+id:header"
+        ohos:multiple_lines="true"
+        ohos:padding="16vp"
+        ohos:text="$string:lorem_ipsum_large"
+        ohos:text_size="18fp"
+        />
+
+    <com.github.clans.fab.FloatingActionMenu
+        ohos:id="$+id:menu_yellow"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_bottom="true"
+        ohos:align_parent_right="true"
+        ohos:bottom_margin="10vp"
+        ohos:left_margin="10vp"
+        ohos:menu_animationDelayPerItem="0"
+        ohos:menu_colorNormal="#FFB805"
+        ohos:menu_colorPressed="#F2AB00"
+        ohos:right_margin="80vp"
+        ohos:top_margin="10vp"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:id="$+id:fab12"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#FFB805"
+            ohos:fab_colorPressed="#F2AB00"
+            ohos:fab_label="Menu item 1"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:id="$+id:fab22"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#FFB805"
+            ohos:fab_colorPressed="#F2AB00"
+            ohos:fab_label="Menu item 2"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:id="$+id:fab32"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#FFB805"
+            ohos:fab_colorPressed="#F2AB00"
+            ohos:fab_label="lorem_ipsum"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.github.clans.fab.FloatingActionMenu
+        ohos:id="$+id:menu_green"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_bottom="true"
+        ohos:align_parent_right="true"
+        ohos:bottom_margin="10vp"
+        ohos:left_margin="10vp"
+        ohos:menu_animationDelayPerItem="500"
+        ohos:menu_colorNormal="#43A047"
+        ohos:menu_colorPressed="#2E7D32"
+        ohos:menu_icon="$media:ic_star"
+        ohos:right_margin="150vp"
+        ohos:top_margin="10vp"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#43A047"
+            ohos:fab_colorPressed="#2E7D32"
+            ohos:fab_label="Menu item 1"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#43A047"
+            ohos:fab_colorPressed="#2E7D32"
+            ohos:fab_label="Menu item 2"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#43A047"
+            ohos:fab_colorPressed="#2E7D32"
+            ohos:fab_label="lorem_ipsum"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.github.clans.fab.FloatingActionMenu
+        ohos:id="$+id:menu_blue"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_bottom="true"
+        ohos:align_parent_right="true"
+        ohos:bottom_margin="10vp"
+        ohos:left_margin="10vp"
+        ohos:menu_animationDelayPerItem="0"
+        ohos:menu_colorNormal="#1565C0"
+        ohos:menu_colorPressed="#2272CD"
+        ohos:menu_fab_size="1"
+        ohos:right_margin="220vp"
+        ohos:top_margin="10vp"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#1565C0"
+            ohos:fab_colorPressed="#2272CD"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_star"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#1565C0"
+            ohos:fab_colorPressed="#2272CD"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_star"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_colorNormal="#1565C0"
+            ohos:fab_colorPressed="#2272CD"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_star"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.github.clans.fab.FloatingActionButton
+        ohos:id="$+id:fab_edit"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:fab_colorNormal="#F50057"
+        ohos:fab_colorPressed="#E8004A"
+        ohos:fab_size="1"
+        ohos:image_src="$media:ic_edit"
+        ohos:left_margin="10vp"
+        ohos:top_margin="75vp"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        ohos:id="$+id:menu_down"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_right="true"
+        ohos:menu_animationDelayPerItem="0"
+        ohos:bottom_margin="10vp"
+        ohos:left_margin="10vp"
+        ohos:menu_fab_size="1"
+        ohos:top_padding="10vp"
+        ohos:menu_openDirection="1"
+        ohos:right_margin="10vp"
+        ohos:top_margin="65vp"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.github.clans.fab.FloatingActionMenu
+        ohos:id="$+id:menu_red"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:menu_animationDelayPerItem="0"
+        ohos:align_parent_bottom="true"
+        ohos:align_parent_right="true"
+        ohos:bottom_padding="10vp"
+        ohos:menu_backgroundColor="#ccffffff"
+        ohos:right_margin="10vp"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_label="Menu item 1"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_label="Menu item 2"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_label="lorem_ipsum"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.github.clans.fab.FloatingActionMenu
+        ohos:id="$+id:menu_labels_right"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:bottom_padding="10vp"
+        ohos:left_padding="10vp"
+        ohos:menu_backgroundColor="#ccffffff"
+        ohos:menu_labels_position="1"
+        ohos:right_padding="10vp"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_label="Menu item 1"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_label="Menu item 2"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:fab_label="lorem_ipsum"
+            ohos:fab_size="1"
+            ohos:image_src="$media:ic_edit"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+</DependentLayout>

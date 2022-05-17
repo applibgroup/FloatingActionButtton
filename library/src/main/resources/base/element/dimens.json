@@ -1,0 +1,16 @@
+{
+  "float": [
+    {
+      "name": "fab_size_normal",
+      "value": "56vp"
+    },
+    {
+      "name": "fab_size_mini",
+      "value": "40vp"
+    },
+    {
+      "name": "labels_text_size",
+      "value": "10fp"
+    }
+  ]
+}

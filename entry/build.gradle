@@ -1,0 +1,11 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+}
+
+dependencies {
+    implementation project(path: ':library')
+}
