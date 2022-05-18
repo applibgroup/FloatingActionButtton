@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:parent"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <ListContainer
+        ohos:id="$+id:list"
+        ohos:height="match_parent"
+        ohos:width="match_parent"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        ohos:id="$+id:fabBtn"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="16vp"
+        ohos:image_src="$media:ic_progress"
+        ohos:layout_alignment="bottom|right"
+        ohos:right_margin="16vp"/>
+
+</StackLayout>

@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "material_brown",
+      "value" : "#4b405c"
+    },
+    {
+      "name": "material_light_brown",
+      "value": "#9b92b3"
+    }
+  ]
+}
